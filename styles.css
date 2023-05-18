@@ -1,0 +1,51 @@
+body{
+    background-color: #532a7f;
+    font-family: "Archivo", sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+p,table{
+    max-width: 600px;
+    width: 40%;
+}
+button{
+    background-color: #EFEFEF;
+    color: #532a7f;
+    width: 80px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+table{
+    
+    height: 550px;
+    border: white 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.num{
+    width: 40px;
+    height: 40px;
+    background-color: #ba00fc;
+    margin-right: 5px;
+}
+span,td{
+    color: white;
+}
+.fa-solid{
+    margin-right: 1rem;
+}
