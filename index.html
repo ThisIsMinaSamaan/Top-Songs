@@ -29,10 +29,10 @@
         voluptatem earum eveniet voluptates necessitatibus. Cum error vel
         placeat culpa, ipsa eos!
       </p>
-      <button>Show me!</button>
+      <button class="show" onclick="showDiv ()">Show me!</button>
     </div>
 
-    <div class="songs">
+    <div id="songs">
         <ul>
             <li><span class="num">#1</span>Time to Pretend</li>
             <li><span class="num">#2</span>O-o-oh Child</li>
@@ -48,5 +48,11 @@
             <li><span class="num">#12</span>Superstition</li>
         </ul>
     </div>
+
+    <script>
+      function showDiv() {
+  document.getElementById('songs').style.display = "block";
+}
+  </script>
   </body>
 </html>
