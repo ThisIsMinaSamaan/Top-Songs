@@ -29,21 +29,36 @@ button{
     margin-right: auto;
     margin-bottom: 1rem;
 }
-table{
-    
-    height: 550px;
+
+.songs{
+    margin: 0 auto;
+    width: 500px;
+    height: 410px;
     border: white 2px solid;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    box-sizing: border-box;
 }
+
+.songs ul{
+    list-style: none;
+    
+
+}
+
+.songs ul li {
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
 .num{
-    width: 40px;
-    height: 40px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
     background-color: #ba00fc;
     margin-right: 5px;
 }
-span,td{
+.num,li{
     color: white;
 }
 .fa-solid{
