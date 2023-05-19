@@ -19,7 +19,7 @@ p,table{
     max-width: 600px;
     width: 40%;
 }
-button{
+.show{
     background-color: #EFEFEF;
     color: #532a7f;
     width: 80px;
@@ -28,28 +28,40 @@ button{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
+
 }
 
-.songs{
+#songs{
+    display: none;
     margin: 0 auto;
     width: 500px;
-    height: 410px;
+    /* height: 410px;  */
     border: white 2px solid;
     box-sizing: border-box;
 }
 
-.songs ul{
+#songs::after{
+    clear: both;
+    content: '';
+    display: block;
+
+}
+
+#songs ul{
     list-style: none;
     
 
 }
 
-.songs ul li {
+#songs ul li {
     float: left;
     width: 50%;
     text-align: left;
     margin-bottom: 40px;
+    
 }
+
+
 
 .num{
     display: inline-block;
